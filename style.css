@@ -127,7 +127,7 @@ header ul li a{
 
 
 .about{
-    margin: 8% 15%;
+    margin: 5% 15%;
     text-align: center;
     background-color: var(--lyellow) ;
     padding: 40px;
@@ -224,7 +224,7 @@ header ul li a{
     bottom: 0px;
     right: 0px;
     left: 0px;
-    height: 120px;
+    height: 150px;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -306,6 +306,24 @@ header ul li a{
     transform: scale(1.1);
     background-color: rgb(182, 81, 27);
 }
+
+.layout{
+    background-color: rgba(0, 0, 0, 0.347);
+    height: 80%;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.project:hover .layout{
+    visibility: visible;
+}
+
+
 
 @keyframes welcome {
     0%{
