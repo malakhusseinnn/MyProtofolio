@@ -61,7 +61,7 @@ header ul li a{
 }
 
 .home{
-    margin: 5% 10% 15% 10%;
+    margin: 5% 10% 200px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
