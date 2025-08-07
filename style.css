@@ -371,3 +371,9 @@ header ul li a{
         background-color: rgb(164, 69, 69);
     }
 }
+
+@media (max-width:432px) {
+    .home{
+        margin-bottom: 40%;
+    }
+}
